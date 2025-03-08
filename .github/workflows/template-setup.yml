@@ -1,6 +1,6 @@
 name: Template Setup
 on:
-  repository_creation # Runs when a new repo is created from a template
+  create # Runs when a new repo is created from a template
 
 jobs:
   update-files:
