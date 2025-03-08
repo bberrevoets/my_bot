@@ -1,6 +1,8 @@
 name: Template Setup
 on:
-  create # Runs when a new repo is created from a template
+  push:
+    branches:
+      - main  # Runs when a new repo is created from a template
 
 jobs:
   update-files:
